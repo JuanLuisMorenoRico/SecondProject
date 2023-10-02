@@ -1,7 +1,21 @@
+.logo{
+    margin-left: 20px;
+}
 body{
     background-color: aquamarine;
+    margin: 0;
 }
 header{
     background-color: black;
-    color: yellow;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: between; /* Moves NAV bar to right of screen*/
+    padding-bottom: 40px;
+    align-items: center;
+}
+li{
+    list-style-type: none; /* remove bullets */
+    margin-right: 300px;
 }
